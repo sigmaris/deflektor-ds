@@ -6,6 +6,8 @@ The game requires the [devkitPRO] libraries to compile - it will build under dev
 
 The default target in the Makefile will build a self-contained .nds file which contains all the level data, using NitroFS. For this to work, it requires that your flash card's launcher supports the [argv protocol]. Most modern card firmware does. If you can't use NitroFS, you can build a version that uses plain FAT access to files on your flash card, by using the 'nonitro' target: `make nonitro` - but note that this requires copying the `data` folder out of `fsroot` onto your flash card's filesystem.
 
+ [argv protocol]: http://devkitpro.org/wiki/Homebrew_Menu#ARGV_Protocol
+
 Playing
 -------
 If your flash card's launcher doesn't do this already, you need to DLDI patch the .nds file with the correct module for your type of flash card (GBAMP, Supercard, etc). 
