@@ -1,0 +1,11 @@
+# graphics in bitmap form
+-gb
+
+# 16bpp
+-gB16
+
+# transparent FF00FF
+-gTFF00FF
+
+# no palette
+-p!

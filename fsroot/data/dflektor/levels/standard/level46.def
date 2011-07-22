@@ -1,0 +1,56 @@
+!palette(1)
+!gremlins
+(0,0) anglereflector(ene down right)
+(1,0) spike
+(2,0) mirror
+(4,0) anglereflector(e down left)
+(5,0) anglereflector(e down right)
+(8,0) target
+(9,0) spike
+(12,0) anglereflector(e down left right)
+(14,0) receiver(down)
+(0,1) spike
+(7,1) spinreflector(e up down left right)
+(10,1) spike
+(13,1) target
+(14,1) goal_anglereflector(e up down left)
+(0,2) laser(right)
+(2,2) mirror
+(4,2) anglereflector(e up down left)
+(5,2) anglereflector(e up down right)
+(11,2) spinreflector(nne up down left right)
+(14,2) mirror
+(7,3) mirror
+(9,3) anglereflector(ene up left right)
+(13,3) spinreflector(ne up down left right)
+(0,4) spike
+(1,4) anglereflector(se up down left)
+(2,4) anglereflector(se up down right)
+(6,4) target
+(9,4) anglereflector(ene down left right)
+(11,4) mirror
+(13,4) target
+(2,5) target
+(4,5) anglereflector(sse up down left right)
+(7,5) spinreflector(nne up down left right)
+(9,5) target
+(14,5) anglereflector(ne up down left)
+(1,6) spinreflector(nne up down left right)
+(9,6) mirror
+(11,6) anglereflector(n up down left)
+(12,6) anglereflector(n up down)
+(13,6) anglereflector(n up down right)
+(14,6) spike
+(0,7) target
+(2,7) spinreflector(nne up down left right)
+(4,7) mirror
+(6,7) anglereflector(se up down left)
+(7,7) anglereflector(se up down right)
+(8,7) spike
+(12,7) target
+(0,8) spike
+(1,8) mirror
+(6,8) target
+(11,8) anglereflector(e up left right)
+(13,8) mirror
+(14,8) target

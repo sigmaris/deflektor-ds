@@ -1,0 +1,92 @@
+!palette(2)
+!gremlins
+(0,0) mirror
+(1,0) mirror
+(2,0) mirror
+(4,0) teleporter(3)
+(7,0) subtiles(reflect(left down ),reflect(down ),blank, blank)
+(8,0) subtiles(reflect(down ),reflect(down ),blank, blank)
+(9,0) subtiles(reflect(down ),reflect(right down ),blank, blank)
+(12,0) mirror
+(14,0) laser(left)
+(0,1) mirror
+(1,1) mirror
+(2,1) mirror
+(4,1) target
+(5,1) subtiles(blank, reflect(left right up ),blank, reflect(left right ))
+(7,1) mirror
+(8,1) mirror
+(9,1) mirror
+(11,1) spike
+(12,1) subtiles(blank, blank, reflect(left up down ),reflect(up down ))
+(13,1) subtiles(blank, blank, reflect(up down ),reflect(up down ))
+(14,1) subtiles(blank, blank, reflect(up down ),reflect(up down ))
+(4,2) spike
+(5,2) subtiles(blank, reflect(left tr down ),blank, blank)
+(6,2) subtiles(reflect(right up bl ),blank, reflect(left right ),blank)
+(7,2) mirror
+(8,2) mirror
+(9,2) mirror
+(10,2) subtiles(blank, reflect(left right up ),blank, reflect(left right ))
+(12,2) target
+(14,2) teleporter(0)
+(0,3) subtiles(reflect(up down ),reflect(up down ),blank, blank)
+(1,3) subtiles(reflect(up down ),reflect(up down ),blank, blank)
+(2,3) subtiles(reflect(up down ),reflect(right up bl ),blank, reflect(left right ))
+(4,3) target
+(6,3) subtiles(reflect(left right ),blank, reflect(left tr down ),reflect(up down ))
+(7,3) subtiles(blank, blank, reflect(up down ),reflect(up down ))
+(8,3) subtiles(blank, blank, reflect(up down ),reflect(up down ))
+(9,3) subtiles(blank, blank, reflect(up bl ),reflect(up br))
+(10,3) subtiles(blank, reflect(left right ),reflect(up down ),reflect(tl tr down ))
+(11,3) subtiles(blank, blank, reflect(up down ),reflect(up down ))
+(12,3) subtiles(blank, blank, reflect(up down ),reflect(up down ))
+(13,3) subtiles(blank, blank, reflect(up down ),reflect(up down ))
+(14,3) subtiles(blank, blank, reflect(up down ),reflect(up down ))
+(0,4) mirror
+(1,4) mirror
+(2,4) subtiles(blank, reflect(left right ),blank, reflect(left right ))
+(3,4) target
+(4,4) mirror
+(7,4) goal_spike
+(8,4) receiver(left)
+(9,4) subtiles(reflect(left ),reflect(right ),reflect(left ),reflect(right ))
+(12,4) target
+(14,4) spike
+(0,5) mirror
+(1,5) mirror
+(2,5) subtiles(blank, reflect(left right ),blank, reflect(left tr down ))
+(3,5) subtiles(blank, blank, reflect(up down ),reflect(up down ))
+(4,5) subtiles(blank, blank, reflect(up down ),reflect(up down ))
+(5,5) subtiles(blank, blank, reflect(up down ),reflect(up down ))
+(6,5) subtiles(blank, blank, reflect(up down ),reflect(up down ))
+(7,5) subtiles(reflect(left up br),reflect(up down ),reflect(tl right down ),blank)
+(8,5) subtiles(reflect(up down ),reflect(up down ),blank, blank)
+(9,5) subtiles(reflect(tl down ),reflect(right bl ),blank, reflect(left right ))
+(10,5) target
+(2,6) target
+(3,6) spike
+(8,6) teleporter(1)
+(9,6) subtiles(blank, reflect(left right ),blank, reflect(left right ))
+(11,6) spike
+(13,6) mirror
+(14,6) mirror
+(0,7) teleporter(3)
+(3,7) teleporter(0)
+(6,7) mirror
+(7,7) mirror
+(9,7) subtiles(reflect(left up br),reflect(tl right down ),reflect(left right ),blank)
+(10,7) target
+(13,7) mirror
+(14,7) mirror
+(0,8) target
+(1,8) subtiles(blank, reflect(left right up ),blank, reflect(left right ))
+(2,8) target
+(4,8) mirror
+(6,8) mirror
+(7,8) mirror
+(9,8) subtiles(reflect(left right ),blank, reflect(left right ),blank)
+(10,8) teleporter(1)
+(11,8) target
+(13,8) mirror
+(14,8) mirror

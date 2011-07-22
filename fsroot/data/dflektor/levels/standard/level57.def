@@ -1,0 +1,105 @@
+!palette(0)
+!gremlins
+(0,0) target
+(1,0) target
+(2,0) target
+(3,0) target
+(4,0) target
+(5,0) target
+(6,0) target
+(7,0) laser(down)
+(8,0) target
+(9,0) target
+(10,0) target
+(11,0) target
+(12,0) target
+(13,0) target
+(14,0) target
+(0,1) target
+(1,1) target
+(2,1) target
+(3,1) target
+(4,1) target
+(5,1) target
+(6,1) target
+(8,1) target
+(9,1) target
+(10,1) target
+(11,1) target
+(12,1) target
+(13,1) target
+(14,1) target
+(0,2) target
+(1,2) target
+(2,2) target
+(3,2) target
+(4,2) target
+(5,2) target
+(6,2) target
+(8,2) target
+(9,2) target
+(10,2) target
+(11,2) target
+(12,2) target
+(13,2) target
+(14,2) target
+(0,3) target
+(1,3) spinmirror(n)
+(2,3) target
+(3,3) spinmirror(e)
+(4,3) target
+(5,3) spinmirror(sse)
+(6,3) spike
+(8,3) spike
+(9,3) spinmirror(ene)
+(10,3) target
+(11,3) spinmirror(e)
+(12,3) target
+(13,3) spinmirror(w)
+(14,3) target
+(0,4) spinmirror(s)
+(1,4) spinmirror(wsw)
+(2,4) spinmirror(sse)
+(3,4) spinmirror(sw)
+(4,4) spinmirror(wnw)
+(5,4) spinmirror(nnw)
+(6,4) spinmirror(wsw)
+(7,4) spinmirror(sse)
+(8,4) spinmirror(sw)
+(9,4) spinmirror(nw)
+(10,4) spinmirror(sse)
+(11,4) spinmirror(ne)
+(12,4) spinmirror(ese)
+(13,4) spinmirror(s)
+(14,4) spinmirror(ese)
+(0,5) spinmirror(ese)
+(2,5) spinmirror(sse)
+(4,5) spinmirror(wsw)
+(10,5) spinmirror(ne)
+(12,5) spinmirror(ese)
+(14,5) spinmirror(s)
+(6,6) subtiles(blank, blank, blank, block)
+(7,6) goal_subtiles(blank, blank, block, block)
+(8,6) subtiles(blank, blank, block, blank)
+(0,7) subtiles(block, block, blank, blank)
+(1,7) subtiles(block, block, blank, block)
+(6,7) subtiles(blank, block, blank, block)
+(7,7) receiver(up)
+(8,7) subtiles(block, blank, block, blank)
+(13,7) subtiles(block, block, block, blank)
+(14,7) subtiles(block, block, blank, blank)
+(0,8) angleblocker(ne)
+(1,8) subtiles(blank, block, blank, block)
+(2,8) subtiles(blank, blank, block, block)
+(3,8) mirror
+(4,8) subtiles(blank, blank, block, block)
+(5,8) mirror
+(6,8) subtiles(blank, block, block, block)
+(7,8) subtiles(block, block, blank, blank)
+(8,8) subtiles(block, blank, block, block)
+(9,8) mirror
+(10,8) subtiles(blank, blank, block, block)
+(11,8) mirror
+(12,8) subtiles(blank, blank, block, block)
+(13,8) subtiles(block, blank, block, blank)
+(14,8) angleblocker(se)

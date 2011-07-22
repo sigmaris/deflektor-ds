@@ -1,0 +1,132 @@
+!palette(1)
+!gremlins
+(0,0) subtiles(blank, block, block, block)
+(1,0) subtiles(block, block, block, block)
+(2,0) target
+(3,0) subtiles(block, block, block, block)
+(4,0) target
+(5,0) subtiles(block, block, block, block)
+(6,0) target
+(7,0) subtiles(block, block, block, block)
+(8,0) target
+(9,0) subtiles(block, block, block, block)
+(10,0) target
+(11,0) subtiles(block, block, block, block)
+(12,0) target
+(13,0) subtiles(block, block, block, block)
+(14,0) subtiles(block, blank, block, block)
+(0,1) subtiles(block, block, block, block)
+(1,1) target
+(2,1) mirror
+(3,1) mirror
+(4,1) mirror
+(5,1) mirror
+(6,1) mirror
+(7,1) mirror
+(8,1) mirror
+(9,1) mirror
+(10,1) mirror
+(11,1) mirror
+(12,1) mirror
+(13,1) target
+(14,1) subtiles(block, block, block, block)
+(0,2) angleblocker(ne)
+(1,2) subtiles(block, block, block, block)
+(2,2) mirror
+(3,2) mirror
+(4,2) mirror
+(5,2) mirror
+(6,2) mirror
+(7,2) mirror
+(8,2) mirror
+(9,2) mirror
+(10,2) mirror
+(11,2) mirror
+(12,2) mirror
+(13,2) subtiles(block, block, block, block)
+(14,2) angleblocker(se)
+(1,3) subtiles(blank, block, blank, block)
+(2,3) mirror
+(3,3) mirror
+(4,3) mirror
+(5,3) mirror
+(6,3) spike
+(7,3) mirror
+(8,3) spike
+(9,3) mirror
+(10,3) mirror
+(11,3) mirror
+(12,3) mirror
+(13,3) subtiles(block, blank, block, blank)
+(0,4) mirror
+(2,4) mirror
+(3,4) mirror
+(4,4) spike
+(5,4) spinmirror(ne)
+(6,4) mirror
+(7,4) target
+(8,4) mirror
+(9,4) spinmirror(sw)
+(10,4) spike
+(11,4) mirror
+(12,4) mirror
+(14,4) mirror
+(1,5) subtiles(blank, block, blank, block)
+(2,5) mirror
+(3,5) mirror
+(4,5) mirror
+(5,5) mirror
+(6,5) spike
+(7,5) mirror
+(8,5) spike
+(9,5) mirror
+(10,5) mirror
+(11,5) mirror
+(12,5) mirror
+(13,5) subtiles(block, blank, block, blank)
+(14,5) goal_spike
+(0,6) laser(up)
+(1,6) subtiles(block, block, block, block)
+(2,6) mirror
+(3,6) mirror
+(4,6) mirror
+(5,6) mirror
+(6,6) mirror
+(7,6) mirror
+(8,6) mirror
+(9,6) mirror
+(10,6) mirror
+(11,6) mirror
+(12,6) mirror
+(13,6) subtiles(block, block, block, block)
+(14,6) receiver(up)
+(0,7) subtiles(block, block, block, block)
+(1,7) target
+(2,7) mirror
+(3,7) mirror
+(4,7) mirror
+(5,7) mirror
+(6,7) mirror
+(7,7) mirror
+(8,7) mirror
+(9,7) mirror
+(10,7) mirror
+(11,7) mirror
+(12,7) mirror
+(13,7) target
+(14,7) subtiles(block, block, block, block)
+(0,8) subtiles(block, block, blank, block)
+(1,8) subtiles(block, block, block, block)
+(2,8) target
+(3,8) subtiles(block, block, block, block)
+(4,8) target
+(5,8) subtiles(block, block, block, block)
+(6,8) target
+(7,8) subtiles(block, block, block, block)
+(8,8) target
+(9,8) subtiles(block, block, block, block)
+(10,8) target
+(11,8) subtiles(block, block, block, block)
+(12,8) target
+(13,8) subtiles(block, block, block, block)
+(14,8) subtiles(block, block, block, blank)

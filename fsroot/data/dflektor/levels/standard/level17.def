@@ -1,0 +1,79 @@
+!palette(2)
+!gremlins
+(0,0) laser(right)
+(3,0) mirror
+(4,0) subtiles(blank, reflect(left br),blank, reflect(left right ))
+(5,0) subtiles(reflect(right down ),blank, blank, blank)
+(6,0) target
+(7,0) subtiles(blank, reflect(left down ),blank, blank)
+(8,0) subtiles(reflect(bl ),reflect(),reflect(left ),reflect(br))
+(9,0) subtiles(reflect(right ),blank, reflect(right down ),blank)
+(10,0) receiver(right)
+(11,0) goal_subtiles(blank, reflect(left right ),blank, reflect(left right ))
+(12,0) target
+(14,0) mirror
+(0,1) subtiles(reflect(up down ),reflect(up down ),blank, blank)
+(1,1) subtiles(reflect(up down ),reflect(up bl ),blank, reflect(left down ))
+(2,1) subtiles(reflect(right up ),blank, reflect(tr down ),reflect(right up down ))
+(4,1) subtiles(blank, reflect(left right ),reflect(left up ),reflect(tl right ))
+(6,1) mirror
+(8,1) subtiles(reflect(left ),reflect(right ),reflect(left ),reflect(right ))
+(9,1) target
+(11,1) subtiles(blank, reflect(left tr down ),blank, blank)
+(12,1) subtiles(reflect(up bl ),reflect(up ),reflect(left down ),reflect(down ))
+(13,1) subtiles(reflect(right up ),blank, reflect(tr bl ),reflect(right up ))
+(0,2) mirror
+(4,2) subtiles(reflect(left down ),reflect(right bl ),blank, reflect(left right down ))
+(8,2) subtiles(reflect(left down ),reflect(right down ),blank, blank)
+(11,2) target
+(13,2) subtiles(reflect(left ),reflect(right ),reflect(left ),reflect(right ))
+(3,3) mirror
+(5,3) target
+(8,3) mirror
+(10,3) subtiles(reflect(left up ),reflect(up ),reflect(left down ),reflect(down ))
+(11,3) subtiles(reflect(up ),reflect(right up ),reflect(bl ),reflect(right ))
+(13,3) subtiles(reflect(left down ),reflect(right bl ),blank, reflect(left right down ))
+(1,4) subtiles(reflect(left up br),reflect(right up down ),reflect(left right ),blank)
+(4,4) subtiles(blank, blank, blank, reflect(left up ))
+(5,4) subtiles(reflect(left up ),reflect(right up ),reflect(tl ),reflect(right ))
+(7,4) subtiles(blank, blank, reflect(left right up ),blank)
+(11,4) subtiles(reflect(left down ),reflect(tr bl ),blank, reflect(left down ))
+(12,4) subtiles(reflect(right up ),blank, reflect(tr bl ),reflect(right up ))
+(14,4) target
+(1,5) subtiles(reflect(left right ),blank, reflect(left right ),blank)
+(2,5) mirror
+(4,5) subtiles(blank, reflect(left ),reflect(left up down ),reflect(tl down ))
+(5,5) subtiles(reflect(br),reflect(tr down ),reflect(right down ),blank)
+(6,5) subtiles(reflect(up down ),reflect(up down ),blank, blank)
+(7,5) subtiles(reflect(tl right down ),blank, blank, blank)
+(8,5) target
+(10,5) mirror
+(12,5) subtiles(reflect(left ),reflect(right ),reflect(left ),reflect(right ))
+(0,6) target
+(1,6) subtiles(reflect(left right ),blank, reflect(left tr ),reflect(up br))
+(2,6) subtiles(blank, blank, reflect(up down ),reflect(right up down ))
+(6,6) mirror
+(9,6) subtiles(reflect(left right up ),blank, reflect(left tr ),reflect(right up ))
+(12,6) subtiles(reflect(left ),reflect(right ),reflect(left down ),reflect(right down ))
+(14,6) mirror
+(0,7) subtiles(blank, reflect(left up ),reflect(up ),reflect(tl ))
+(1,7) subtiles(reflect(tl br),reflect(right down ),reflect(right ),blank)
+(2,7) target
+(4,7) subtiles(reflect(left up ),reflect(up ),reflect(left down ),reflect(down ))
+(5,7) subtiles(reflect(right up ),blank, reflect(tr down ),reflect(up down ))
+(6,7) subtiles(blank, blank, reflect(up down ),reflect(up down ))
+(7,7) subtiles(blank, blank, reflect(right up down ),blank)
+(9,7) subtiles(reflect(left down ),reflect(right bl ),blank, reflect(left right ))
+(12,7) target
+(0,8) subtiles(reflect(),reflect(),reflect(),reflect())
+(1,8) subtiles(reflect(right ),blank, reflect(right ),blank)
+(2,8) mirror
+(4,8) target
+(6,8) target
+(8,8) mirror
+(9,8) subtiles(blank, reflect(left right ),blank, reflect(left tr ))
+(10,8) subtiles(blank, blank, reflect(up ),reflect(up ))
+(11,8) subtiles(blank, blank, reflect(up ),reflect(up ))
+(12,8) subtiles(blank, blank, reflect(up ),reflect(up ))
+(13,8) subtiles(blank, blank, reflect(up ),reflect(up ))
+(14,8) subtiles(blank, reflect(left up ),reflect(up ),reflect(tl ))

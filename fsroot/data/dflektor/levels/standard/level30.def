@@ -1,0 +1,79 @@
+!palette(0)
+!gremlins
+(1,0) subtiles(reflect(left down ),reflect(down ),blank, blank)
+(2,0) subtiles(reflect(down ),reflect(down ),blank, blank)
+(3,0) subtiles(reflect(down ),reflect(right bl ),blank, reflect(left right down ))
+(4,0) laser(down)
+(5,0) subtiles(block, block, block, block)
+(6,0) mirror
+(12,0) mirror
+(13,0) subtiles(blank, reflect(left right ),blank, reflect(left right ))
+(14,0) spike
+(0,1) target
+(1,1) subtiles(reflect(left up ),reflect(up ),reflect(left down ),reflect(down ))
+(2,1) subtiles(reflect(up ),reflect(right up ),reflect(down ),reflect(tr down ))
+(3,1) subtiles(blank, blank, reflect(up down ),reflect(right up down ))
+(5,1) subtiles(block, block, block, block)
+(7,1) subtiles(block, block, block, block)
+(13,1) subtiles(blank, reflect(left right ),blank, reflect(left right ))
+(14,1) target
+(4,2) mirror
+(5,2) subtiles(block, block, block, block)
+(6,2) goal_teleporter(1)
+(7,2) subtiles(block, block, block, block)
+(8,2) teleporter(0)
+(12,2) mirror
+(13,2) subtiles(blank, reflect(left right ),blank, reflect(left right ))
+(14,2) target
+(0,3) subtiles(reflect(up down ),reflect(up down ),blank, blank)
+(1,3) subtiles(reflect(up down ),reflect(up down ),blank, blank)
+(2,3) subtiles(reflect(up down ),reflect(up down ),blank, blank)
+(3,3) subtiles(reflect(right up bl ),blank, reflect(left right down ),blank)
+(5,3) subtiles(blank, block, blank, block)
+(6,3) receiver(up)
+(7,3) subtiles(block, blank, block, blank)
+(13,3) subtiles(blank, reflect(left right ),blank, reflect(left right down ))
+(14,3) target
+(0,4) spike
+(1,4) target
+(2,4) target
+(3,4) teleporter(1)
+(4,4) spike
+(5,4) subtiles(blank, block, blank, blank)
+(6,4) subtiles(block, block, blank, blank)
+(7,4) subtiles(block, blank, blank, blank)
+(9,4) target
+(14,4) spinreflector(se up down left)
+(0,5) target
+(1,5) target
+(2,5) target
+(3,5) random
+(4,5) teleporter(0)
+(5,5) subtiles(blank, blank, reflect(left up down ),reflect(right up bl ))
+(9,5) spinblocker(ese)
+(11,5) spinblocker(se)
+(0,6) spike
+(1,6) target
+(2,6) target
+(3,6) target
+(4,6) target
+(5,6) subtiles(blank, reflect(left right ),blank, reflect(left right ))
+(11,6) target
+(13,6) target
+(0,7) target
+(1,7) spike
+(2,7) target
+(3,7) target
+(4,7) target
+(5,7) subtiles(blank, reflect(left right ),blank, reflect(left right ))
+(8,7) mirror
+(10,7) spinblocker(se)
+(12,7) spinblocker(ne)
+(0,8) spike
+(1,8) target
+(2,8) spike
+(3,8) target
+(4,8) spike
+(5,8) subtiles(blank, reflect(left right ),blank, reflect(left right ))
+(7,8) mirror
+(14,8) mirror
